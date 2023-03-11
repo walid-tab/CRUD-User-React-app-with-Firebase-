@@ -6,6 +6,7 @@
   font-weight: bold;
 }
 .Formulaire{
+  
   margin: 20px;
   display: flex;
   justify-content: center;
@@ -14,7 +15,13 @@
   margin-right: 40px;
 }
 .Info{
+  
   display: flex;
   justify-content:space-between;
   align-items: center;
+}
+.listUser{
+  margin-top: 50px;
+  margin-left: 8%;
+  margin-right: 8%;
 }

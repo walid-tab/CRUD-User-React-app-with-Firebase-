@@ -78,7 +78,7 @@ function App() {
       <Button variant="primary" type="submit" onClick={createUser}>
         Submit
       </Button>
-
+      <div className="listUser">
       {users.map((user) => {
         return (
           <div className="Info">
@@ -103,6 +103,7 @@ function App() {
           </div>
         );
       })}
+      </div>
     </div>
   );
 }
